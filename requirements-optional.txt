@@ -1,0 +1,3 @@
+# Optional: precise tree-sitter parsing for JS/TS/Java/Go/C/C++/Rust/C#.
+# Without it RepoLens uses its built-in brace-aware extractor (also tested).
+tree-sitter-language-pack>=0.2

@@ -1,0 +1,11 @@
+# Core app. Version ranges (not exact pins) because they were written without access to PyPI;
+# after your first successful install run `pip freeze > requirements.lock` to pin exactly.
+streamlit>=1.40,<2
+numpy>=1.26,<3
+pandas>=2.1,<4
+plotly>=5.20,<7
+python-dotenv>=1.0,<2
+GitPython>=3.1.40,<4
+chromadb>=0.5,<2                 # persistent vector store (falls back to numpy if missing)
+sentence-transformers>=3.0,<6    # local embeddings + optional cross-encoder reranker
+google-genai>=1.0,<2             # Gemini API (answers, query rewriting, overview)
